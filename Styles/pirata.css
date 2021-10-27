@@ -1,0 +1,37 @@
+/*HOJA DE ESTILO DE LA CANCION DEL PIRATA DE ESPRONCEDA.*/
+@font-face {
+    font-family: 'Caligrafia'; /* se pueden quiar las comillas si es solo una palabraw*/
+    src: url('../Fonts/scriptina.regular.ttf');
+}
+
+
+body{
+    background-image: url("../Images/external-content.duckduckgo.com.jpg");
+    /*background-repeat: no-repeat; no repite el mosaico*/
+    /* para modificar el tamaño de la imagen*/
+    background-size : 237px x 237px; 
+
+    /*quitamos el padding y margin por defecto*/
+    margin:0;
+    padding:0;
+    font-family: Caligrafia;
+    font-size: 2em;
+}
+
+#container {
+    /*color de fondo del container*/
+    background-color: rgba(255, 255, 255, 0.700);
+    /*cambiar el ancho*/
+    width: 80%;
+    /*cambiar la altura al 100% de la pantalla*/
+    /*height: 100vh; Aunque se puede regular ancho y alto en una caja CSS, se suele regular únicamente
+    el ancho, y dejar que se produzca scrolls en vertical
+    /*para centrar el container*/
+    margin: auto;
+    /*centrar texto dentro del container*/
+    text-align: center;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 30px;
+    
+}
